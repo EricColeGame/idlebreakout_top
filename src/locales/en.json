@@ -6,7 +6,19 @@
     "description": "Explore Idle Breakout Wiki for upgrade guides, ball strategies, gameplay tips, brick breaking mechanics and everything you need to progress faster.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "progression": "Progression",
+    "items": "Items",
+    "mechanics": "Mechanics",
+    "platforms": "Platforms",
+    "community": "Community",
+    "achievements": "Achievements",
+    "home": "Home",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
+  },
   "home": {
     "meta": {
       "title": "Idle Breakout Wiki — Upgrades, Balls, Codes & Strategy Guide",
@@ -359,7 +371,6 @@
       "secondary": "Play on Coolmath Games"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -395,5 +406,37 @@
     "buildGuide": "Strategy Guide",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "codes": {
+    "overviewTitle": "Idle Breakout Codes",
+    "overviewDescription": "Browse save import codes, export strings, and redemption instructions to unlock progression boosts in Idle Breakout."
+  },
+  "guide": {
+    "overviewTitle": "Idle Breakout Guides",
+    "overviewDescription": "Comprehensive strategy guides, beginner walkthroughs, and optimal setup tips for Idle Breakout."
+  },
+  "progression": {
+    "overviewTitle": "Idle Breakout Progression",
+    "overviewDescription": "Master prestige resets, level scaling, milestone targets, and endgame progression routes in Idle Breakout."
+  },
+  "items": {
+    "overviewTitle": "Idle Breakout Items",
+    "overviewDescription": "Discover ball tier rankings, specialized ball types like plasma balls, and critical ability skill upgrades in Idle Breakout."
+  },
+  "mechanics": {
+    "overviewTitle": "Idle Breakout Mechanics",
+    "overviewDescription": "Understand core game mechanics including boss fights, black and gold brick bonuses, and active power-ups in Idle Breakout."
+  },
+  "platforms": {
+    "overviewTitle": "Idle Breakout Platforms",
+    "overviewDescription": "Platform guides and mobile compatibility tips for playing Idle Breakout on iOS, Android, and web browsers."
+  },
+  "community": {
+    "overviewTitle": "Idle Breakout Community",
+    "overviewDescription": "Connect with fellow Idle Breakout players on Discord, Reddit, and explore games with similar incremental gameplay."
+  },
+  "achievements": {
+    "overviewTitle": "Idle Breakout Achievements",
+    "overviewDescription": "Track unlockable achievements, speedrun strategies, and world record completion benchmarks in Idle Breakout."
   }
 }

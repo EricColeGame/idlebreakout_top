@@ -1,0 +1,161 @@
+export const metadata = {
+  title: "Guía de Idlebreakout iOS: Cómo jugar y progresar en iPhone y iPad",
+  description: "Descubre cómo jugar y optimizar idlebreakout iOS en dispositivos Apple. Conoce los pasos de configuración, importación de partidas, builds de bolas y estrategias de progresión.",
+  category: "platforms",
+  date: "2026-09-24",
+};
+
+Jugar a tu rompeladrillos incremental favorito en el móvil no debería ser complicado ni dar errores. Si quieres ejecutar **idlebreakout ios** de forma fluida en tu iPhone o iPad, configurar el juego a través de Safari móvil ofrece una experiencia portátil instantánea y receptiva, sin descargas engorrosas. Dominar **idlebreakout ios** requiere entender cómo funciona el almacenamiento del navegador móvil, adaptar tu curva de mejoras a los controles táctiles y asegurarte de que tu progreso no se detenga cuando tu dispositivo se bloquee.
+
+Ya sea que estés farmeando para llegar al nivel 1000 o probando bucles de prestigio, jugar en el ecosistema móvil de Apple ofrece claras ventajas y algunos matices técnicos. Esta guía completa cubre métodos de configuración, builds de inversión en bolas, transferencias de partidas guardadas y consejos de rendimiento para que puedas progresar sin interrupciones.
+
+---
+
+## Cómo configurar y jugar a Idle Breakout en iOS
+
+A diferencia de los títulos móviles nativos tradicionales distribuidos exclusivamente a través de tiendas de aplicaciones, la forma más común y accesible de disfrutar de este juego en hardware de Apple es mediante navegadores móviles WebKit. Mientras que los jugadores de PC suelen ejecutarlo a través de portales web o visitan [Idle Breakout on Steam](https://store.steampowered.com/app/1126130/Idle_Breakout/) para sesiones dedicadas en ordenador, los usuarios de móvil pueden obtener un rendimiento casi nativo directamente a través de Safari.
+
+Ejecutar **idlebreakout ios** a través de Safari te da acceso completo al lienzo activo de rotura de ladrillos, toques táctiles reactivos y todas las funciones de exportación de guardado. Sin embargo, jugar dentro de una pestaña del navegador saturada con barras de herramientas visibles puede reducir la vista del tablero y activar accidentalmente gestos del navegador.
+
+Para transformar tu pestaña del navegador en una experiencia limpia e independiente, puedes convertir el juego en una Progressive Web App (PWA) utilizando la herramienta nativa de marcadores de Apple.
+
+### Cómo añadir la aplicación web a la pantalla de inicio
+
+1. Abre Safari en tu iPhone o iPad y dirígete al servidor web confiable de tu elección donde se aloje el juego.
+2. Toca el botón **Compartir** (el icono de un cuadrado con una flecha apuntando hacia arriba) situado en la parte inferior de la pantalla en iPhone o en la barra de herramientas superior derecha en iPad.
+3. Desplázate hacia abajo en la hoja para compartir y pulsa **Añadir a pantalla de inicio**.
+4. Cambia el nombre del icono por algo sencillo, como "Idle Breakout", y confirma tocando **Añadir** en la esquina superior derecha.
+5. Sal de Safari y toca el icono recién creado en tu pantalla de inicio. El juego se iniciará ahora a pantalla completa, sin la barra de direcciones de Safari ni las pestañas de navegación inferiores.
+
+| Método de configuración | Pantalla visual | Estabilidad de caché | Facilidad de pantalla completa | Recomendado para |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pestaña estándar de Safari** | Incluye barra de URL y herramientas | Moderada (ligada a la caché de pestañas) | Mala | Revisiones casuales rápidas |
+| **PWA en pantalla de inicio** | Pantalla completa limpia y sin bordes | Alta (almacenamiento web aislado) | Sensación de pantalla completa nativa | Sesiones de progresión a largo plazo |
+| **Navegador iOS de terceros** | Puede mostrar barras del navegador | Variable según el navegador | Regular | Usuarios de navegadores alternativos |
+
+Ejecutar el juego como una aplicación web en la pantalla de inicio elimina los deslizamientos accidentales en la barra de direcciones, brindando a tus toques la máxima precisión al hacer clic manualmente en los ladrillos.
+
+---
+
+## Prioridades clave de mejora: daño, velocidad y cobertura
+
+Avanzar a través de cientos de niveles en un dispositivo móvil exige una economía eficiente. Al jugar a **idlebreakout ios**, tus dedos pueden ayudar al principio, pero el éxito a largo plazo depende de construir un motor automatizado de bolas que destruya ladrillos con gran cantidad de vida sin requerir toques constantes.
+
+Los cuellos de botella en la progresión suelen deberse a un desequilibrio entre tres estadísticas fundamentales: daño por impacto, velocidad de movimiento y cobertura del tablero. Si cualquiera de estos tres pilares se queda atrás, los tiempos de limpieza se ralentizarán drásticamente.
+
+```
+       [ Daño de bolas ] <--- Necesario cuando los ladrillos aguantan demasiados golpes
+             ▲
+             │ (Bucle equilibrado)
+             ▼
+[ Velocidad de movimiento ] <-----> [ Cobertura del tablero ]
+(Aumenta la tasa de impactos)        (Evita ladrillos aislados en esquinas)
+```
+
+### 1. Escalado de daño
+Los ladrillos acumulan una cantidad considerable de vida a medida que aumenta tu nivel. Si tus bolas rebotan en los ladrillos sin reducir visiblemente sus barras de salud, aumentar el número de bolas o la velocidad no solucionará la demora. Mejora la potencia pura hasta que los impactos estándar rompan los ladrillos de forma constante en dos o tres rebotes.
+
+### 2. Escalado de velocidad
+La velocidad determina tus ataques por minuto. Una vez que tus bolas golpean con suficiente fuerza, la velocidad acelera el flujo de dinero haciendo que las bolas recorran el tablero con rapidez. En pantallas móviles, las configuraciones de alta velocidad también generan una respuesta táctil rápida.
+
+### 3. Cobertura de objetivos
+Un error común durante partidas largas es permitir que un único ladrillo suelto detenga todo el tablero. Las mejoras de cobertura garantizan que las bolas reboten en ángulos variados o se dividan en grupos, eliminando ladrillos periféricos para que el nivel cambie al instante.
+
+| Enfoque de estadística | Qué soluciona | Señal de alerta de que lo necesitas | Prioridad de mejora |
+| :--- | :--- | :--- | :--- |
+| **Daño** | Resistencia de ladrillos duros | Las bolas rebotan repetidamente haciendo un daño mínimo | Crítica siempre que los niveles tarden >60 s |
+| **Velocidad** | Frecuencia lenta de impactos | Las bolas se mueven con lentitud entre rebotes | Alta durante las fases iniciales e intermedias |
+| **Cobertura** | Ladrillos aislados en las esquinas | Quedan uno o dos ladrillos solitarios en pantallas casi despejadas | Moderada a alta en niveles amplios |
+| **Poder de clic** | Impulso inicial de la economía | Los ingresos pasivos son demasiado lentos para comprar la bola 1 | Solo al principio del juego; descartar más adelante |
+
+---
+
+## Selección de bolas y sinergias de builds para móvil
+
+Los diferentes tipos de bolas cumplen funciones distintas en el tablero. Encontrar la combinación adecuada evita que el juego desperdicie impactos en rebotes de bajo valor.
+
+Los reportes de la comunidad y la experiencia de los jugadores indican que depender exclusivamente de un solo tipo de bola crea estancamientos graves en la progresión alrededor de los niveles 200, 500 y 800. Una plantilla diversificada es enormemente superior.
+
+| Tipo de bola | Rol principal | Mejor sinergia | Ventaja en el juego móvil |
+| :--- | :--- | :--- | :--- |
+| **Bola básica** | DPS económico inicial | Mejoras de clic | Baja carga de procesamiento en iPhones más antiguos |
+| **Bola de plasma** | Daño de salpicadura en área (AoE) | Grupos densos de ladrillos | Despeja rápidamente el centro congestionado de la pantalla |
+| **Bola dispersa (Scatter)** | Alta cobertura de objetivos | Mejoras de veneno y velocidad | Alcanza ladrillos sueltos en la periferia |
+| **Bola francotirador (Sniper)** | Alto daño a un solo objetivo | Ladrillos resistentes y dorados | Elimina obstáculos con mucha vida |
+| **Bola de veneno** | Daño porcentual a lo largo del tiempo | Bolas dispersas de movimiento rápido | Debilita estructuras duras para facilitar su limpieza |
+
+### Cómo equilibrar las mejoras de bolas
+Al jugar a **idlebreakout ios** durante pausas breves a lo largo del día, da prioridad a las bolas automáticas de salpicadura y daño en el tiempo. Las combinaciones de plasma y veneno permiten que las partidas pasivas desgasten los niveles densos incluso si solo miras la pantalla una vez cada varios minutos.
+
+Evita gastar dinero en mejoras menores de bolas si estás a punto de desbloquear un tipo de nivel superior. El multiplicador de daño base de un nuevo tipo de bola casi siempre supera las pequeñas ganancias porcentuales de las unidades básicas.
+
+---
+
+## Hoja de ruta paso a paso hacia el hito del nivel 1000
+
+Alcanzar el nivel 1000 se considera la prueba definitiva de una configuración madura. Lograr este hito en el móvil requiere un gasto deliberado en lugar de hacer clics al azar. Utiliza el siguiente ciclo estructurado para mantener un ritmo constante.
+
+| Paso | Objetivo de la fase | Tarea a realizar | Trampa a evitar |
+| :--- | :--- | :--- | :--- |
+| **Paso 1** | Base económica inicial | Invertir en bolas básicas y en el valor base de clic | Sobreinvertir en daño de clic manual |
+| **Paso 2** | Desbloquear primera bola AoE | Ahorrar para Plasma/Dispersa para limpiar niveles más rápido | Comprar demasiadas bolas básicas |
+| **Paso 3** | Establecer la automatización | Equilibrar la velocidad de ataque con el daño de bola | Dejar el tablero inactivo antes de que limpie con fluidez |
+| **Paso 4** | Superar el muro de mitad de juego | Introducir combinaciones de Veneno y Francotirador | Ignorar ladrillos individuales rezagados |
+| **Paso 5** | El empujón final al 1000 | Reinvertir el 80% del dinero en estadísticas primarias de daño | Acumular dinero sin un objetivo de mejora |
+
+### Gestión de la economía en dispositivos móviles
+1. **Evalúa el cuello de botella**: Observa tu tablero durante quince segundos. ¿Rebotan las bolas sin dañar los ladrillos resistentes? Mejora el daño. ¿Las bolas cruzan espacios vacíos sin golpear? Mejora la velocidad o la dispersión.
+2. **Reinvierte de inmediato**: En las fases iniciales, el dinero sin gastar no aporta nada a tu velocidad de limpieza. Mantén tus fondos trabajando adquiriendo la mejora de menor coste que solucione tu ralentización actual.
+3. **Estabiliza antes de alejarte**: Nunca bloquees tu teléfono ni cambies de aplicación mientras un nivel esté costando terminarse. Resuelve primero el cuello de botella para que tus ganancias pasivas se acumulen de forma eficiente.
+
+---
+
+## Gestión de datos de guardado, importaciones y almacenamiento web en iOS
+
+Una de las mayores preocupaciones para los jugadores de la web móvil es conservar sus datos de guardado. Dado que **idlebreakout ios** depende del almacenamiento local de WebKit (LocalStorage e IndexedDB) en lugar de una cuenta integrada en la nube, tu progreso puede ser vulnerable si Safari borra los datos del sitio web.
+
+Las experiencias de los jugadores destacan que la gestión de almacenamiento de iOS puede, en ocasiones, borrar las cookies del navegador y los datos de sitios en caché si tu iPhone se queda con muy poco espacio en disco. Respaldar manualmente tus cadenas de guardado es el mejor hábito que puedes adoptar.
+
+| Acción de guardado | Cómo realizarla | Frecuencia | Por qué es importante |
+| :--- | :--- | :--- | :--- |
+| **Exportación manual** | Ajustes (icono de engranaje) → Export → Copiar cadena | Diariamente o antes de un prestigio | Protege contra borrados accidentales de caché |
+| **Copia en Notas** | Pegar la cadena exportada en Apple Notes | En cada exportación | Se sincroniza en la nube mediante iCloud de forma automática |
+| **Importación de guardado** | Ajustes → Import → Pegar cadena → Confirmar | Al restaurar datos | Permite migraciones de dispositivos y pruebas |
+| **Revisión de caché** | Comprobar ajustes de Almacenamiento del iPhone | Mensualmente | Evita que iOS purgue la caché local de Safari |
+
+### Procedimiento seguro de importación y exportación
+* **Para exportar**: Abre el menú de ajustes del juego tocando el icono de engranaje en la esquina superior derecha. Selecciona **Export**, copia la cadena completa a tu portapapeles de iOS y pégala de inmediato en una nota bloqueada en Apple Notes.
+* **Para importar**: Copia tu cadena de guardado, abre el menú de ajustes en el juego, selecciona **Import**, pega el código y pulsa OK. Asegúrate de copiar toda la cadena de código sin omitir los caracteres iniciales o finales, ya que una cadena con formato incorrecto no se cargará.
+
+---
+
+## Optimización de batería, modo de reposo y rendimiento
+
+Los motores web móviles gestionan las tareas en segundo plano de manera diferente a los ordenadores de sobremesa. Cuando bloqueas la pantalla de tu iPhone o cambias a otra aplicación, iOS suspende automáticamente los procesos JavaScript de WebKit tras un breve periodo para preservar la salud de la batería.
+
+Comprender este comportamiento técnico te ayuda a optimizar tu rutina en **idlebreakout ios** sin agotar la batería ni perder limpiezas de niveles.
+
+| Ajuste del dispositivo | Valor recomendado | Impacto en el juego |
+| :--- | :--- | :--- |
+| **Bloqueo automático de pantalla** | Ajustar en 3–5 minutos o "Nunca" (conectado a la corriente) | Mantiene activa la limpieza de ladrillos sin que se suspenda la app |
+| **Modo de bajo consumo** | Desactivar durante el avance activo | Evita que Safari limite los fotogramas por segundo del juego |
+| **Brillo de la pantalla** | Bajar al 25–40% | Reduce notablemente el calentamiento de la batería en sesiones inactivas prolongadas |
+| **Actualización en segundo plano** | Ajustes estándar | No afecta al lienzo del navegador, es seguro dejarlo activado |
+
+Si planeas realizar sesiones activas prolongadas para avanzar hacia el nivel 1000, mantén tu iPhone conectado al cargador y reduce el brillo de la pantalla. Esto evita el estrangulamiento térmico (thermal throttling), manteniendo el movimiento de las bolas fluido y receptivo.
+
+---
+
+## Preguntas frecuentes
+
+### ¿Existe una aplicación oficial de idlebreakout iOS en la App Store?
+No hay una aplicación nativa oficial independiente en la App Store de Apple. El juego original se juega directamente a través de Safari móvil como una aplicación web en el navegador. Puedes añadirla directamente a tu pantalla de inicio como una Progressive Web App para disfrutar de una experiencia sin publicidad, a pantalla completa y similar a una aplicación.
+
+### ¿Por qué se pausa mi juego cuando bloqueo la pantalla de mi iPhone?
+iOS suspende los scripts web activos cuando la pantalla se apaga para ahorrar batería. Para permitir que **idlebreakout ios** se ejecute sin interrupciones durante sesiones intensivas de limpieza, ajusta la configuración de Bloqueo automático de tu dispositivo en **Ajustes > Pantalla y brillo** y conecta tu teléfono a la corriente.
+
+### ¿Puedo transferir mi archivo de guardado de PC a mi iPhone?
+Sí. Dado que el juego utiliza cadenas de guardado de texto idénticas en todas las versiones web, puedes hacer clic en **Export** en tu ordenador, enviar la cadena de texto a tu iPhone mediante AirDrop, Mensajes o correo electrónico, y pegarla en la ventana **Import** de tu navegador móvil.
+
+### ¿Qué debería mejorar primero al empezar desde cero en iOS?
+Comienza con el daño de clic para superar rápidamente los primeros niveles y acumular dinero inicial. En cuanto puedas permitirte tus primeras bolas básicas y de plasma, orienta tus inversiones por completo a la velocidad y el daño pasivo de las bolas para no tener que tocar la pantalla manualmente.

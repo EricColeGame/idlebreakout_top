@@ -1,0 +1,140 @@
+export const metadata = {
+  title: "Guia de Recorde Mundial de Idle Breakout: Regras de Speedrun, Splits e Estratégias",
+  description: "Aprenda como buscar um recorde mundial em Idle Breakout. Conheça regras verificadas de speedrun, rotas de melhoria ideais, cronômetros de splits e tabelas de classificação.",
+  category: "achievements",
+  date: "2026-09-24",
+};
+
+Fazer speedrun de um jogo incremental de quebrar tijolos pode parecer contraintuitivo, mas a busca por um **recorde mundial de Idle Breakout** transformou um clicker relaxante de computador em um teste intenso de otimização e precisão. Os jogadores precisam equilibrar cliques manuais rápidos, picos calculados de economia e sequências precisas de melhorias enquanto o relógio avança sem trégua. Quer sua meta seja conquistar um **recorde mundial de Idle Breakout** oficial ou simplesmente pulverizar seu melhor tempo pessoal, o sucesso depende de uma execução consistente em vez de mera sorte.
+
+Preparar uma tentativa de recorde exige um domínio claro dos padrões de corrida, da verificação por software e dos cálculos de custo-benefício. A diferença entre uma partida digna de pódio e uma tentativa frustrada costuma se resumir à compra precipitada de uma bola ou a cinco segundos perdidos em uma navegação ineficiente pela loja.
+
+## Categorias Oficiais e Padrões de Verificação
+
+Competições de speedrun em jogos incrementais perdem o sentido rapidamente sem parâmetros rigorosos. Como a vida dos tijolos escala exponencialmente, comparar um sprint de poucos níveis com uma maratona de fases avançadas gera dados incomparáveis. Estabelecer uma corrida incontestável exige definir com precisão as condições iniciais, as configurações de navegador permitidas e os pontos de checagem finais antes de iniciar o cronômetro.
+
+Nas tabelas de classificação da comunidade e nos envios verificados em plataformas como o [Steam Community Hub for Idle Breakout](https://store.steampowered.com/app/1127090/Idle_Breakout/), as partidas são divididas pelo nível-alvo e pelo histórico do jogo salvo. Uma tentativa iniciada do zero avalia a aceleração inicial, enquanto metas de níveis mais altos testam a manutenção do ritmo econômico e as mecânicas de recuperação no meio da corrida.
+
+| Elemento da Categoria | Requisito Padrão | Propósito e Impacto |
+| :--- | :--- | :--- |
+| **Estado do Salvamento** | Reinício completo / cache limpo | Elimina vantagens persistentes de prestígio ou moedas herdadas |
+| **Nível-Alvo** | Nível 10, 50 ou 100 | Estabelece uma linha de base estática para todos os competidores |
+| **Início do Cronômetro** | Primeiro clique ou geração de bola | Evita planejamentos prévios não gravados ou pausas nos menus |
+| **Fim do Cronômetro** | Renderização imediata do nível-alvo | Cria um ponto de encerramento objetivo e verificável quadro a quadro |
+| **Restrições de Ferramentas** | Apenas cliques nativos (sem scripts) | Separa a execução mecânica real do jogador de automações externas |
+
+A experiência da comunidade revela que a maioria das tentativas rejeitadas decorre de estados iniciais ambíguos. Caso o navegador retenha arquivos no armazenamento local (cache), multiplicadores residuais ou insígnias de prestígio podem invalidar uma performance excelente.
+
+### Save Limpo (Fresh Save) vs. Sprints de Nível
+
+A categoria mais prestigiada para um recorde mundial de Idle Breakout é a de Save Limpo (Fresh Save). Nela, os corredores limpam todos os cookies e dados em cache do jogo, começando com zero melhorias, zero de ouro e o campo completamente vazio. Cada microdecisão sobre onde investir ao comprar bolas afeta diretamente o fluxo de caixa inicial.
+
+Em contrapartida, os sprints de nível (como os desafios do Nível 1 ao 20) concentram-se estritamente em padrões de destruição hiperagressivos. Essas categorias abrem mão do ganho econômico de longo prazo em troca de dano bruto imediato. Embora sejam ideais para testar novas rotas de mouse ou filas de melhoria, desafios mais longos demandam uma estratégia financeira multifásica e equilibrada.
+
+| Categoria | Foco Principal | Dificuldade Mecânica | Volatilidade / RNG |
+| :--- | :--- | :--- | :--- |
+| **Sprint (Nível 1–20)** | Velocidade de clique e compra imediata de bolas | Alta (demanda alto APM) | Moderada |
+| **Intermediário (Nível 1–50)** | Transição dos cliques para o DPS das bolas | Moderada | Baixa |
+| **Resistência (Nível 1–100)** | Renda composta e sinergia de escalonamento | Alta (desgaste mental) | Alta |
+| **Sprint de Prestígio** | Uso máximo de vantagens de prestígio | Moderada | Muito Baixa |
+
+## Mecânicas de Cronometragem e Configuração de Splits
+
+Um cronômetro comum ao lado do teclado não é suficiente para validar um recorde oficial. Competidores de ponta utilizam gravações de tela precisas quadro a quadro em conjunto com softwares de splits sincronizados, como o LiveSplit. Uma cronometragem consistente garante que sua tentativa resista ao escrutínio dos moderadores e fornece diagnósticos valiosos após cada sessão.
+
+Ao configurar os splits no programa, divida a partida em marcos de desenvolvimento claros, e não em intervalos de tempo aleatórios. Registrar o momento exato em que você limpa a primeira tela, desbloqueia tipos essenciais de bolas e alcança patamares decisivos de renda revelará com exatidão onde o tempo foi ganho ou perdido.
+
+```text
+[Início: Primeiro Comando] ➔ [Split 1: Nível 10 Concluído] ➔ [Split 2: Primeira Bola de Plasma] ➔ [Split 3: Nível 50 Concluído] ➔ [Fim: Nível-Alvo Atingido]
+```
+
+Analisar os splits separa erros estruturais de rota de variações pontuais na disposição dos tijolos. Se o seu trecho inicial fica constantemente atrás das médias da comunidade, sua ordem de prioridade na loja está incorreta. Por outro lado, se o início é muito veloz mas o jogo trava perto da metade, você provavelmente está investindo pouco em renda composta.
+
+| Ferramenta de Cronometragem | Nível de Precisão | Complexidade de Revisão | Aplicação Ideal |
+| :--- | :--- | :--- | :--- |
+| **Overlay do LiveSplit** | Quadro a quadro (manual ou via hook) | Baixa | Transmissões ao vivo e envios oficiais |
+| **Marcações em Editor de Vídeo** | Contagem exata de quadros a 60 fps | Alta | Finais acirrados e disputas de recorde mundial |
+| **Anotações de Splits Segmentados** | Estimativas de intervalos | Baixa | Testes offline de rotas e rascunhos de estratégia |
+| **Cronômetros Integrados** | Latência variável | Média | Treino casual e aquecimento mecânico |
+
+### Monitorando a Variação de Splits
+
+Para estabelecer uma base confiável, acompanhe sua diferença média de tempo ao longo de pelo menos dez tentativas consecutivas. No cenário competitivo, os jogadores monitoram os "gold splits" — os segmentos mais rápidos já registrados em qualquer tentativa anterior. Comparar a corrida atual com o seu melhor tempo teórico ajuda a decidir se vale a pena reiniciar cedo ou insistir através de uma tela desfavorável de tijolos.
+
+| Split de Diagnóstico | O que Mede | Métrica de Alerta | Ação Corretiva |
+| :--- | :--- | :--- | :--- |
+| **Split de Abertura (N1–N10)** | Velocidade de clique e timing da 1ª bola | >15% atrás do gold split | Reinicie imediatamente; refine o clique |
+| **Split de Motor (N11–N30)** | Transição para a automação | Limpeza de blocos estagnada | Priorize quantidade de bolas sobre dano único |
+| **Split de Escala (N31–N70)** | Ritmo de reinvestimento econômico | Longas pausas esperando ouro | Compre dano de baixo custo para manter a renda |
+| **Split Âncora (N71–N100)** | Dano explosivo no final de jogo | Tela cheia de blocos com alto HP | Junte fundos para melhorias de bolas de topo |
+
+## Estratégia de Melhorias para Conclusões Mais Rápidas
+
+Conquistar um **recorde mundial de Idle Breakout** é, em essência, um exercício de alocação de recursos. Cada moeda gasta precisa gerar um retorno mensurável na velocidade de limpeza ou no fluxo futuro de receita. Comprar a melhoria mais cara disponível sem critério é o motivo mais comum para corridas promissoras perderem força.
+
+A regra fundamental de uma rota competitiva é otimizar para o próximo split de desenvolvimento, e não para o final distante da partida. Embora economizar para comprar bolas avançadas garanta um dano expressivo no longo prazo, perder dois minutos destruindo blocos resistentes com equipamentos fracos consome um tempo irrecuperável.
+
+### Equilibrando Dano, Cobertura e Renda
+
+O ecossistema de melhorias em Idle Breakout gira em torno de três prioridades interdependentes:
+
+1. **Dano Bruto**: Reduz a quantidade total de impactos necessários para destruir blocos individuais.
+2. **Cobertura de Campo**: Aumenta o volume de projéteis quicando na tela, reduzindo o tempo em que trajetórias passam pelo ar sem acertar nada.
+3. **Renda Passiva**: Multiplica o dinheiro ganho por bloco destruído, reduzindo o tempo de espera pelas próximas melhorias.
+
+No início de uma tentativa, os cliques manuais representam seu maior DPS. Conforme o número de blocos cresce, a cobertura de tela passa a ser o fator limitante. Se suas bolas passam a maior parte do tempo no ar sem acertar os blocos restantes nos cantos, aumentar o dano bruto traz retorno zero. É preciso expandir o número de projéteis para limpar as sobras instantaneamente.
+
+| Tipo de Melhoria | Melhor Momento de Compra | Principal Vantagem | Risco Estratégico |
+| :--- | :--- | :--- | :--- |
+| **Poder de Clique** | Primeiros 3 a 5 níveis | Custo baixo; retorno imediato | Perde relevância após o Nível 15 |
+| **Bolas Básicas / Rápidas** | Tabuleiro com falhas de cobertura | Presença de campo acessível | Ineficiente contra blocos reforçados |
+| **Bolas de Alto DPS** | Blocos resistem a muitos impactos | Elimina gargalos com rapidez | Custo elevado trava o ritmo no meio da partida |
+| **Aumentos de Renda** | Tempos de limpeza estão estáveis | Acelera compras nos níveis finais | Reduz o poder de dano imediato |
+
+Relatos de corredores de elite destacam que o padrão de gastos deve se adaptar à densidade dos blocos. Se uma nova fase traz uma concentração de tijolos dourados ou pretos valiosos, priorizar dano concentrado ou velocidade balística limpa o caminho mais rápido, desbloqueando a recompensa da fase seguinte sem interrupções.
+
+## Documentação, Registros de Partida e Verificação
+
+Uma partida rápida só tem valor se for devidamente documentada. Sem provas visuais irrefutáveis, qualquer alegação de **recorde mundial de Idle Breakout** será descartada por moderadores e curadores de tabelas de classificação. Uma submissão adequada exige vídeo contínuo de gameplay, áudio limpo, cronômetro ou overlay do sistema visíveis e total transparência quanto à versão do jogo.
+
+Manter um diário pessoal de registros acelera sua evolução. Anotar o minuto exato das melhorias principais, os padrões dos blocos e a variação dos splits transforma percepções subjetivas em dados práticos para análise.
+
+| Parâmetro do Registro | Exemplo de Registro | Finalidade para Verificação / Análise |
+| :--- | :--- | :--- |
+| **Data e Hora** | 24/09/2026 14:30 UTC | Situa a partida no patch e meta corretos |
+| **Categoria** | Fresh Save até o Nível 100 | Classifica a tentativa para os filtros do ranking |
+| **Tempo Final** | 18m 42s 14ms | Define a marca precisa para comparação |
+| **Método de Entrada** | Mouse óptico (nativo de hardware) | Confirma a ausência de macros ou dispositivos proibidos |
+| **Status do Resultado** | Recorde pessoal verificado (PB) | Distingue treinos casuais de envios oficiais |
+| **Notas de Tempo Perdido** | RNG ruim de quiques no Nível 64 | Aponta pontos de melhoria para ajustes na rota |
+
+Ao nomear suas tentativas para envio ou armazenamento, adote o padrão consolidado pela comunidade:  
+`[Nome do Jogo] - [Categoria] - [Tempo] - [Nome do Jogador]`.
+
+Uma nomenclatura padronizada agiliza a análise da equipe de moderação e evita contestações nas tabelas.
+
+## Otimização Avançada de Rota e Rotina de Treino
+
+Alcançar uma consistência de nível mundial exige treinos deliberados e estruturados, em vez de repetições automáticas. Os competidores de elite raramente jogam o trajeto completo do Nível 1 ao 100 em sessões de rotina. Em vez disso, eles isolam transições complexas e as praticam exaustivamente até transformá-las em memória muscular.
+
+Para refinar sua rota, pratique módulos específicos por meio de exercícios focados:
+
+* **Treino dos Primeiros Cinco Níveis**: Jogue os cinco níveis iniciais vinte vezes seguidas. Concentre-se totalmente na precisão do cursor e na compra das duas primeiras melhorias de bola sem desviar o olhar da tela de jogo.
+* **Treino de Recuperação de Gargalo**: Pause deliberadamente as melhorias durante uma fase difícil para simular um momento de azar na renda. Pratique a escolha das micromelhorias com melhor custo-benefício para recuperar o ritmo de limpeza.
+* **Sprints de Navegação nos Menus**: Treine sua visão periférica para clicar nos botões de compra da loja instantaneamente, reduzindo ao mínimo as frações de segundo em que sua atenção sai da área de blocos.
+
+Encare cada tentativa como uma fonte de dados de desempenho. Quando uma busca por **recorde mundial de Idle Breakout** der errado, estude a gravação para descobrir se o erro decorreu de cliques imprecisos, desequilíbrio na escolha das bolas ou acúmulo excessivo de moedas. Identificar essas falhas é o segredo para reduzir seu tempo de maneira consistente.
+
+## Perguntas Frequentes (FAQ)
+
+### O que torna um recorde mundial de Idle Breakout oficialmente válido?
+Um recorde válido exige uma gravação de tela contínua e sem edições, mostrando toda a área de jogo desde o primeiro comando até a tela final de conclusão. O estado inicial deve estar limpo (cache apagado ou save do zero), e ferramentas externas de automação, scripts modificados ou autoclickers de terceiros são estritamente proibidos, salvo em categorias que permitam expressamente esses recursos.
+
+### Qual é o erro mais comum em uma corrida até o Nível 100?
+O erro mais frequente é acumular moedas cedo demais para tentar comprar tipos caros de bolas de final de jogo. Ficar vários minutos dependendo de equipamentos fracos gera um atraso enorme que as melhorias avançadas não conseguem compensar. Reinvestir em dano incremental constante quase sempre produz tempos melhores do que longas fases de economia estagnada.
+
+### Devo priorizar dano de clique ou bolas automáticas em uma tentativa de recorde?
+O dano de clique é fundamental nos níveis iniciais, quando o dinheiro é curto e os cliques manuais causam muito mais dano do que as primeiras bolas. Contudo, após essa fase de abertura, o clique manual traz retornos decrescentes. Os corredores rapidamente redirecionam todo o orçamento para a quantidade de bolas, velocidade balística e multiplicadores de renda passiva para acompanhar o aumento de resistência dos blocos.
+
+### O desempenho do jogo ou o atraso (lag) do navegador podem prejudicar meu tempo?
+Sim. A simulação física do jogo incremental pode perder quadros em navegadores sobrecarregados, resultando em cliques não registrados ou lentidão na detecção de colisão das bolas. Os jogadores devem fechar abas em segundo plano, desativar extensões pesadas e utilizar navegadores leves com aceleração de hardware ativada para assegurar taxas de quadros estáveis durante toda a corrida.
