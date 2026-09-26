@@ -19,18 +19,18 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Idle Breakout Wiki",
+  shortName: "Idle Breakout",
+  logoText: "IB",
+  tagline: "Upgrades, Balls & Breakout Strategy Guide",
+  description: "Explore Idle Breakout Wiki for upgrade guides, ball strategies, gameplay tips, brick breaking mechanics and everything you need to progress faster.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://idlebreakout.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://idlebreakout.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://www.coolmathgames.com/0-idle-breakout",
+  heroVideoId: "FPVG5jOZD68", // Idle Breakout gameplay & guide video
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://www.reddit.com/r/CoolmathGames/",
+    youtube: "https://www.youtube.com/results?search_query=Idle+Breakout+gameplay",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
