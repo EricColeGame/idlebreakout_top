@@ -1,1 +1,442 @@
-{}
+{
+  "site": {
+    "name": "Idle Breakout Wiki",
+    "shortName": "Idle Breakout",
+    "tagline": "Upgrades, Bälle & Breakout-Strategie-Guide",
+    "description": "Erkunde das Idle Breakout Wiki für Upgrade-Guides, Ball-Strategien, Gameplay-Tipps, Blockzerstörungs-Mechaniken und alles, was du für schnelleren Fortschritt brauchst.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler gemacht."
+  },
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guides",
+    "progression": "Fortschritt",
+    "items": "Gegenstände",
+    "mechanics": "Mechaniken",
+    "platforms": "Plattformen",
+    "community": "Community",
+    "achievements": "Erfolge",
+    "home": "Startseite",
+    "menu": "Menü",
+    "toggleTheme": "Design umschalten"
+  },
+  "home": {
+    "meta": {
+      "title": "Idle Breakout Wiki — Upgrades, Bälle, Codes & Strategie-Guide",
+      "description": "Kompletter Idle Breakout Guide & Wiki. Entdecke Ball-Tier-Listen, Prestige-Reset-Strategien, Save-Codes, Stein-Mechaniken und Speedrun-Tipps."
+    },
+    "hero": {
+      "eyebrow": "Inkrementelles Arcade-Breakout-Spiel",
+      "title": "Idlebreakout Wiki",
+      "description": "Idle Breakout ist ein inkrementelles Arcade-Spiel, bei dem Spieler Steine zerstören, Münzen verdienen, Bälle verbessern und mächtige automatisierte Breakout-Systeme aufbauen.",
+      "stats": [
+        "Über 50 Mio. Besuche",
+        "Über 40 Upgrades & Perks",
+        "Über 1000 Level",
+        "6 zentrale Balltypen"
+      ],
+      "primaryCta": "Anfänger-Guide",
+      "secondaryCta": "Guides durchstöbern",
+      "tertiaryCta": "Ball-Tier-Liste",
+      "videoLabel": "Gameplay ansehen"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchstöbern",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier beginnen",
+      "title": "Deine Idle Breakout Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Anfänger-Guide",
+          "description": "Meistere Klick-Grundlagen, erste Ball-Käufe und effektive Cashflow-Loops, um deine ersten 50 Level zügig zu meistern."
+        },
+        {
+          "number": "2",
+          "title": "Ball-Upgrades & Synergien",
+          "description": "Erfahre, wann du von Basis-Einheiten auf Plasma-, Scatter- und Gift-Bälle umsteigst, um deinen DPS-Wert zu maximieren."
+        },
+        {
+          "number": "3",
+          "title": "Prestige-Resets",
+          "description": "Finde optimale Reset-Schwellen und lerne die Punkteverteilung im Fähigkeitenbaum für mächtige permanente Multiplikatoren."
+        },
+        {
+          "number": "4",
+          "title": "Level 1000 knacken",
+          "description": "Balanciere Geschwindigkeit, Wirkungsradius und Durchschlagskraft aus, um gewaltige Lebenspunkte-Hürden im Endgame zu überwinden."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Guides",
+      "title": "Gefragte Strategien",
+      "quickLinks": [
+        "Ball-Tier-Liste",
+        "Prestige-Guide",
+        "Save-Codes",
+        "Level 1000"
+      ],
+      "cards": [
+        {
+          "badge": "Tier-Liste",
+          "title": "Ball-Tier-Liste",
+          "description": "Umfassendes Ranking aller Balltypen von Plasma bis Basic für höchste Räumungsgeschwindigkeit.",
+          "href": "/items/idlebreakout-ball-tier-list"
+        },
+        {
+          "badge": "Grundlagen",
+          "title": "Anfänger-Guide",
+          "description": "Kompletter Early-Game-Leitfaden für Klick-Mechaniken, frühe Bälle und Einkommenszyklen.",
+          "href": "/guide/idlebreakout-beginner-guide"
+        },
+        {
+          "badge": "Codes",
+          "title": "Save-Codes",
+          "description": "Importiere verschlüsselte Speicherstände zum Testen von Builds, Autoplay und für schnellen Fortschritt.",
+          "href": "/codes/idlebreakout-codes"
+        },
+        {
+          "badge": "Fortschritt",
+          "title": "Prestige-Guide",
+          "description": "Wann du deinen ersten Soft-Reset auslöst und wie du Prestigepunkte für maximalen Ertrag investierst.",
+          "href": "/progression/idlebreakout-prestige-guide"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Idle Breakout?",
+      "paragraphs": [
+        "Idle Breakout ist ein fesselndes inkrementelles Arcade-Spiel, das die klassische Atari-Breakout-Formel mit tiefem Idle-Fortschritt neu interpretiert. Spieler zertrümmern nummerierte geometrische Steine, verdienen Geld für jeden zerlegten Block und bauen eine automatisierte Flotte von Abprallkugeln auf – von schnellen Scatter-Bällen bis zu giftigen Sphären.",
+        "Wenn die Stages in Richtung Level 1000 und darüber hinaus klettern, skaliert die Haltbarkeit der Steine in Millionen und Milliarden von Lebenspunkten. Fortschritt erfordert ein strategisches Zusammenspiel aus Schaden, Geschwindigkeit und Flächenabdeckung, kombiniert mit gezielten Prestige-Resets, die mühsame Runden in permanente Verstärkungen verwandeln."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "Kodiqi"
+        },
+        {
+          "label": "Plattform",
+          "value": "Web / Mobile"
+        },
+        {
+          "label": "Genre",
+          "value": "Idle Breakout Arcade"
+        },
+        {
+          "label": "Besuche gesamt",
+          "value": "50M+"
+        },
+        {
+          "label": "Max-Level",
+          "value": "1000+"
+        },
+        {
+          "label": "Balltypen",
+          "value": "6 Kern-Bälle"
+        },
+        {
+          "label": "Upgrades",
+          "value": "40+ Perks"
+        }
+      ],
+      "cta": "Alle Guides entdecken"
+    },
+    "explore": {
+      "title": "Idle Breakout Wiki entdecken",
+      "description": "Meistere deinen Weg der Blockzerstörung mit unseren vollständigen Guides, Ball-Tier-Listen, Prestige-Reset-Routen, Save-Code-Imports und Speedrun-Taktiken.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Idle Breakout Anfänger-Guide",
+          "description": "Ein einsteigerfreundlicher Leitfaden über den grundlegenden Gameplay-Loop: Steine zerstören, Geld verdienen, Bälle kaufen und effizient skalieren.",
+          "href": "/guide/idlebreakout-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Klicke aktiv auf Startsteine, um deinen ersten Basis-Ball zu finanzieren"
+            },
+            {
+              "label": "2",
+              "detail": "Verbessere Ballgeschwindigkeit und Kraft ausgewogen für schnelles Vorankommen"
+            },
+            {
+              "label": "3",
+              "detail": "Schalte Plasma- und Scatter-Bälle frei, um dichte Blockcluster zu bewältigen"
+            },
+            {
+              "label": "4",
+              "detail": "Bereite deinen ersten Prestige-Reset um Stage 200 herum für permanente Boni vor"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Idle Breakout Ball-Guide",
+          "description": "Detaillierte Übersicht über verschiedene Balltypen, Fähigkeiten, Ausbaupfade und empfohlene Einsatzbereiche.",
+          "href": "/items/idlebreakout-ball-tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Plasma-Ball — Gewaltiger Flächenschaden-Impuls (AoE) schmilzt dichte Ansammlungen"
+            },
+            {
+              "label": "A",
+              "detail": "Scatter & Sniper — Überragende Abdeckung und schnelles Erledigen zäher Ziele"
+            },
+            {
+              "label": "B",
+              "detail": "Kanonenball — Hohe Durchschlagskraft gegen dichte Reihen widerstandsfähiger Blöcke"
+            },
+            {
+              "label": "C",
+              "detail": "Basis-Ball — Zuverlässige und günstige Starteinheit, die im Endgame abfällt"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Idle Breakout Upgrade-Guide",
+          "description": "Ausführliche Aufschlüsselung der Shop-Upgrades, Kosten-Nutzen-Optimierung und Skalierung des Klickschadens.",
+          "href": "/guide/idlebreakout-upgrades",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "DPS-Kraft",
+              "detail": "Erhöht den Schaden pro Abpraller zur schnellen Zerstörung harter Steine"
+            },
+            {
+              "label": "Tempo",
+              "detail": "Steigert die Bewegungsgeschwindigkeit für deutlich mehr Treffer pro Minute"
+            },
+            {
+              "label": "Streuung",
+              "detail": "Maximiert Abprallwinkel, damit keine isolierten Ecken unberührt bleiben"
+            },
+            {
+              "label": "Ökonomie",
+              "detail": "Erhöht Münzauszahlungen pro Block zur Finanzierung höherer Ballstufen"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Idle Breakout Codes",
+          "description": "Geprüfte Save-Import-Codes und Backup-Strings für Autoplay, schnelles Gold und erweiterte Testkonfigurationen.",
+          "href": "/codes/idlebreakout-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Import",
+              "detail": "Füge verschlüsselte Fortschritts-Strings über das Einstellungs-Zahnrad ein"
+            },
+            {
+              "label": "Autoplay",
+              "detail": "Automatisierte Speicherstände ermöglichen eigenständiges Klicken und Farmen im Hintergrund"
+            },
+            {
+              "label": "Backup",
+              "detail": "Exportiere und sichere deinen aktiven Spielstand immer lokal vor dem Einspielen neuer Codes"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Idle Breakout Prestige-Guide",
+          "description": "Erklärt das Prestige-Soft-Reset-System, optimale Zeitpunkte und permanente Multiplikatoren im Fähigkeitenbaum.",
+          "href": "/progression/idlebreakout-prestige-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Beobachte das Tempo und resette, wenn zähe Blöcke den Fortschritt merklich ausbremsen"
+            },
+            {
+              "label": "2",
+              "detail": "Sammle Prestigewährung basierend auf der höchsten Stufe und zerstörten Steinen"
+            },
+            {
+              "label": "3",
+              "detail": "Investiere Punkte in dauerhafte Schadensvervielfacher und Startgeld-Boni"
+            },
+            {
+              "label": "4",
+              "detail": "Klettere mit verstärkten Basiswerten in Minutenschnelle durch frühere Stages zurück"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Idle Breakout Gameplay-Tipps",
+          "description": "Praktische Strategien zur Optimierung von Ball-Upgrades, schnellerem Gelderwerb und Vermeidung von Blockaden.",
+          "href": "/guide/idlebreakout-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Engpässe",
+              "detail": "Prüfe, ob zähe Runden an mangelndem Schaden, zu wenig Tempo oder fehlender Streuung liegen"
+            },
+            {
+              "label": "Gold sparen",
+              "detail": "Gib nicht jede Münze sofort aus; spare gezielt auf das Freischalten stärkerer Ballstufen"
+            },
+            {
+              "label": "AoE-Fokus",
+              "detail": "Nutze Plasma- und Giftbälle, um das Feld aufzuweichen, bevor schnelle Bälle abräumen"
+            },
+            {
+              "label": "Autoplay",
+              "detail": "Stelle ein ausgewogenes Ball-Team zusammen, bevor du das Spiel unbeaufsichtigt laufen lässt"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Idle Breakout Plattform-Guide",
+          "description": "Zeigt verfügbare Plattformen und Zugangswege: Desktop-Browser, mobile PWA-Verknüpfungen und Touch-Steuerung.",
+          "href": "/platforms/idlebreakout-mobile",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Coolmath",
+              "detail": "Spiele direkt in modernen Desktop-Browsern mit voller Speicherstand-Persistenz"
+            },
+            {
+              "label": "Mobiles Web",
+              "detail": "Zugriff über iOS Safari oder Android Chrome mit touch-optimierter Bedienung"
+            },
+            {
+              "label": "PWA-Shortcut",
+              "detail": "Zum Startbildschirm hinzufügen für ablenkungsfreies Vollbild-Erlebnis unterwegs"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Idle Breakout Updates",
+          "description": "Sammelt Patchnotes, Entwickler-Neuigkeiten und die Versionsgeschichte über Web- und Mobilversionen hinweg.",
+          "href": "/guide/idlebreakout-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Kodiqi",
+              "detail": "Ursprünglicher Browser-Release mit den 6 Kern-Ball-Archetypen und Steinphysik"
+            },
+            {
+              "label": "Coolmath",
+              "detail": "Optimierte Web-Edition mit Cloud- und lokalem Speicher-Handling"
+            },
+            {
+              "label": "Mobile PWA",
+              "detail": "Responsive Viewport-Anpassungen für flüssiges Spielen per Fingertipp auf allen Geräten"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Schnelle Antworten auf die wichtigsten Fragen zu Mechaniken, Bällen, Codes und Prestige in Idle Breakout.",
+      "items": [
+        {
+          "question": "Was ist Idle Breakout?",
+          "answer": "Idle Breakout ist ein inkrementelles Brick-Breaking-Spiel, bei dem Spieler nummerierte Blöcke zerstören, um Geld zu verdienen, automatische Bälle zu kaufen, Upgrades freizuschalten und per Prestige über Level 1000 aufzusteigen."
+        },
+        {
+          "question": "Welche Bälle sollte man in Idle Breakout am besten verbessern?",
+          "answer": "Plasma-Bälle und Gift-Bälle gehören dank enormem Flächenschaden und prozentualem Lebenspunkte-Abzug zur absoluten Spitzenklasse. Scatter-Bälle bieten zudem exzellente Bildschirmabdeckung gegen verstreute Blöcke."
+        },
+        {
+          "question": "Wie funktionieren Codes in Idle Breakout?",
+          "answer": "Codes in Idle Breakout sind verschlüsselte Speicherstand-Import-Strings statt klassischer Werbegutscheine. Du kannst sie über das Zahnrad-Symbol in den Einstellungen eingeben, um Fortschritte zu laden oder Test-Setups zu starten."
+        },
+        {
+          "question": "Wann sollte man in Idle Breakout ein Prestige durchführen?",
+          "answer": "Führe ein Prestige durch, wenn das Vorankommen spürbar langsamer wird und Steine Dutzende Treffer benötigen. Der erste Reset empfiehlt sich typischerweise zwischen Level 200 und 300, um permanente Skillpunkte zu sichern."
+        },
+        {
+          "question": "Wo kann man Idle Breakout spielen?",
+          "answer": "Idle Breakout kann kostenlos auf Web-Plattformen wie Coolmath Games, itch.io sowie in mobilen Browsern auf iOS- und Android-Geräten ohne Download gespielt werden."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Idle Breakout zu meistern?",
+      "description": "Vom ersten Basis-Ball bis zur vollautomatisierten Zerstörung von Milliarden Blöcken: Unser Community-Wiki bietet dir kostenlose, aktuelle Guides.",
+      "primary": "Upgrade-Guide lesen",
+      "secondary": "Auf Coolmath Games spielen"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes anzeigen",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Artikel",
+    "relatedGuides": "Ähnliche Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Idle Breakout Wiki",
+    "about": "Idle Breakout Wiki ist ein unabhängiges, von Fans erstelltes Informationsportal über Upgrade-Routen, Ball-Synergien, Prestige-Systeme und essenzielles Spielwissen für Einsteiger und Veteranen.",
+    "quickLinks": "Schnellzugriff",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Idle Breakout Wiki. Nicht mit Coolmath Games verbunden.",
+    "description": "Inkrementelles Arcade-Brick-Breaking-Spiel. Zerstöre Steine, verbessere Bälle und errichte automatisierte Breakout-Systeme.",
+    "playGame": "Idle Breakout spielen",
+    "officialDiscord": "Reddit-Community",
+    "officialYoutube": "Gameplay-Videos",
+    "vvBuilder": "Ball-Rechner",
+    "beginnerGuide": "Anfänger-Guide",
+    "raceGuides": "Ball-Guides",
+    "bossGuides": "Upgrade-Guides",
+    "buildGuide": "Strategie-Guide",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "codes": {
+    "overviewTitle": "Idle Breakout Codes",
+    "overviewDescription": "Entdecke Save-Import-Codes, Export-Strings und Einlöseanweisungen, um deinen Spielfortschritt in Idle Breakout zu beschleunigen."
+  },
+  "guide": {
+    "overviewTitle": "Idle Breakout Guides",
+    "overviewDescription": "Umfassende Strategie-Guides, Anfänger-Walkthroughs und Tipps für das optimale Setup in Idle Breakout."
+  },
+  "progression": {
+    "overviewTitle": "Idle Breakout Fortschritt",
+    "overviewDescription": "Meistere Prestige-Resets, Level-Skalierung, Meilenstein-Ziele und Endgame-Routen in Idle Breakout."
+  },
+  "items": {
+    "overviewTitle": "Idle Breakout Gegenstände",
+    "overviewDescription": "Entdecke Ball-Ranglisten, spezialisierte Balltypen wie Plasma-Bälle und entscheidende Fähigkeits-Upgrades in Idle Breakout."
+  },
+  "mechanics": {
+    "overviewTitle": "Idle Breakout Mechaniken",
+    "overviewDescription": "Verstehe fundamentale Spielmechaniken einschließlich Bosskämpfe, Boni für schwarze und goldene Steine sowie aktive Power-ups in Idle Breakout."
+  },
+  "platforms": {
+    "overviewTitle": "Idle Breakout Plattformen",
+    "overviewDescription": "Plattform-Guides und Tipps zur mobilen Kompatibilität für Idle Breakout auf iOS, Android und in Webbrowsern."
+  },
+  "community": {
+    "overviewTitle": "Idle Breakout Community",
+    "overviewDescription": "Vernetze dich mit anderen Idle Breakout Spielern auf Discord und Reddit und entdecke ähnliche inkrementelle Spiele."
+  },
+  "achievements": {
+    "overviewTitle": "Idle Breakout Erfolge",
+    "overviewDescription": "Verfolge freischaltbare Erfolge, Speedrun-Strategien und Weltrekord-Richtwerte in Idle Breakout."
+  }
+}
