@@ -1,9 +1,9 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to My Seafood Stand on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
+    "name": "Idle Breakout Wiki",
+    "shortName": "Idle Breakout",
+    "tagline": "Upgrades, Balls & Breakout Strategy Guide",
+    "description": "Explore Idle Breakout Wiki for upgrade guides, ball strategies, gameplay tips, brick breaking mechanics and everything you need to progress faster.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
@@ -30,18 +30,18 @@
       "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "My Seafood Stand",
-      "description": "Master your restaurant in My Seafood Stand on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Idle Arcade Breakout Game",
+      "title": "Idlebreakout Wiki",
+      "description": "Idle Breakout is an incremental arcade game where players destroy bricks, earn coins, upgrade balls, and build powerful automatic breakout systems.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "50M+ Total Visits",
+        "40+ Upgrades Available",
+        "0 Active Codes",
+        "Occasional Updates"
       ],
-      "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
+      "primaryCta": "Play on Coolmath Games",
+      "secondaryCta": "Upgrade Guide",
+      "tertiaryCta": "Ball Strategies",
       "videoLabel": "Official media"
     },
     "updates": {
@@ -342,10 +342,10 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master My Seafood Stand?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
-      "primary": "Read the Beginner Guide",
-      "secondary": "Play on Roblox"
+      "title": "Ready to Master Idle Breakout?",
+      "description": "From your first basic ball to fully automated multi-billion brick destruction, our community wiki has you covered with free, up-to-date guides.",
+      "primary": "Read the Upgrade Guide",
+      "secondary": "Play on Coolmath Games"
     }
   },
   "bosses": {
@@ -379,21 +379,21 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "Idle Breakout Wiki",
+    "about": "Idle Breakout Wiki is an independent fan-built guide hub covering upgrade routes, ball synergies, prestige systems, and essential game knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play My Seafood Stand",
-    "officialDiscord": "Official Discord",
-    "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "copyright": "2026 Idle Breakout Wiki. Not affiliated with Coolmath Games.",
+    "description": "Incremental arcade brick-breaking game. Destroy bricks, upgrade balls, and build automated breakout systems.",
+    "playGame": "Play Idle Breakout",
+    "officialDiscord": "Reddit Community",
+    "officialYoutube": "Gameplay Videos",
+    "vvBuilder": "Ball Calculator",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "raceGuides": "Ball Guides",
+    "bossGuides": "Upgrade Guides",
+    "buildGuide": "Strategy Guide",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

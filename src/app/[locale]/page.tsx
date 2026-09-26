@@ -7,7 +7,7 @@ import { routing, type Locale } from "@/i18n/routing";
 import en from "@/locales/en.json";
 import HomePageClient from "./HomePageClient";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://idlebreakout.top";
 
 type Messages = typeof en;
 
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default async function LocaleHomePage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function LocaleHomePage({ params }: { params: Promise<{ locale: string }> }): Promise<JSX.Element> {
   const { locale } = await params;
   const loc = locale as Locale;
   const messages = (await getMessages({ locale })) as Messages;
