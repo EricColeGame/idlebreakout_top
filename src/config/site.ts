@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://www.reddit.com/r/CoolmathGames/",
     youtube: "https://www.youtube.com/results?search_query=Idle+Breakout+gameplay",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "es", "pt", "de"],
   defaultLocale: "en",
 };
