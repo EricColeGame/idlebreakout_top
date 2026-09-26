@@ -9,8 +9,8 @@
   "nav": {},
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Idle Breakout Wiki — Upgrades, Balls, Codes & Strategy Guide",
+      "description": "Complete Idle Breakout guide and wiki. Explore ball tier lists, prestige reset strategies, save codes, brick breaking mechanics, and speedrun tips."
     },
     "hero": {
       "eyebrow": "Idle Arcade Breakout Game",
@@ -34,265 +34,293 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Idle Breakout Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Master the fundamentals of clicking, initial ball purchases, and cash generation to clear your first 50 stages efficiently."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Ball Upgrades & Synergies",
+          "description": "Learn when to transition from basic units to high-impact Plasma, Scatter, and Poison balls to maximize DPS."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Prestige Resets",
+          "description": "Discover optimal reset thresholds and prestige skill tree allocations to unlock massive permanent multipliers."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Pushing Level 1000",
+          "description": "Balance movement speed, splash radius, and brick penetration to shatter late-game health walls and reach four-digit milestones."
         }
       ]
     },
     "popular": {
-      "eyebrow": "Popular Pages",
-      "title": "Trending Now",
+      "eyebrow": "Popular Guides",
+      "title": "Trending Strategies",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Ball Tier List",
+        "Prestige Guide",
+        "Save Codes",
+        "Level 1000"
       ],
       "cards": [
         {
-          "badge": "Beginner",
+          "badge": "Tier List",
+          "title": "Ball Tier List",
+          "description": "Comprehensive ranking of every ball type from Plasma to Basic for maximum clear speed.",
+          "href": "/items/idlebreakout-ball-tier-list"
+        },
+        {
+          "badge": "Essential",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Complete early game walkthrough covering click mechanics, early balls, and cash loops.",
+          "href": "/guide/idlebreakout-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Codes",
+          "title": "Save Codes",
+          "description": "Import encrypted save strings for testing builds, autoplay configs, and quick progression.",
+          "href": "/codes/idlebreakout-codes"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Progression",
+          "title": "Prestige Guide",
+          "description": "When to trigger your first soft reset and how to spend prestige points for maximum returns.",
+          "href": "/progression/idlebreakout-prestige-guide"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Idle Breakout?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Idle Breakout is an addictive incremental arcade game that reinvents the classic Atari breakout formula with deep idle progression. Players smash through numbered geometric bricks, earn cash for every shattered block, and build an automated fleet of bouncing spheres ranging from rapid-fire Scatter balls to toxic Poison spheres.",
+        "As stage numbers climb toward level 1000 and beyond, brick durability scales into millions and billions of hit points. Progression demands strategic stat balancing across power, velocity, and spatial coverage, paired with timely prestige resets that convert hard-fought stages into permanent account-wide multipliers."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Kodiqi"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "Web / Mobile"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Idle Breakout Arcade"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Total Visits",
+          "value": "50M+"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Max Level",
+          "value": "1000+"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Ball Types",
+          "value": "6 Core Balls"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Upgrades",
+          "value": "40+ Perks"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Idle Breakout Wiki",
+      "description": "Master your brick-shattering journey with our complete guides, ball tier lists, prestige reset routes, save code imports, and speedrun tactics.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Idle Breakout Beginner Guide",
+          "description": "A beginner-friendly guide covering the basic gameplay loop, how to break bricks, earn money, buy balls, and progress efficiently.",
+          "href": "/guide/idlebreakout-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Click starter bricks actively to fund your first Basic Ball purchase"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Upgrade ball speed and power evenly to clear early stages rapidly"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Unlock Plasma and Scatter balls to handle dense multi-brick formations"
+            },
+            {
+              "label": "4",
+              "detail": "Prepare for your initial prestige reset around stage 200 for permanent boosts"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Idle Breakout Balls Guide",
+          "description": "A detailed overview of the different ball types, their abilities, upgrade paths, and recommended usage situations.",
+          "href": "/items/idlebreakout-ball-tier-list",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "Plasma Ball — Massive AoE splash pulse melts dense clusters"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "A",
+              "detail": "Scatter & Sniper — Outstanding screen spread and high-HP target execution"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "B",
+              "detail": "Cannon Ball — High single-target impact against heavy barrier rows"
+            },
+            {
+              "label": "C",
+              "detail": "Basic Ball — Reliable cheap starter unit that drops off in late game"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "Idle Breakout Upgrades Guide",
+          "description": "Explains upgrade systems, power progression, and how players can spend resources effectively to clear bricks faster.",
+          "href": "/items/idlebreakout-best-skills",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "DPS Power",
+              "detail": "Increases damage per bounce to crush high-durability bricks"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Velocity",
+              "detail": "Boosts movement speed to increase hits per minute across gaps"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Spread",
+              "detail": "Maximizes ricochet coverage so isolated corners are never stalled"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Economy",
+              "detail": "Scales coin payouts per block shattered to fund rapid ball tiers"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Idle Breakout Codes",
+          "description": "A comprehensive guide on save string codes, encrypted imports, autoplay setups, and testing configurations.",
+          "href": "/codes/idlebreakout-codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Import",
+              "detail": "Paste encoded progression strings via the in-game Settings gear icon"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Autoplay",
+              "detail": "Automated save setups enable hands-free clicking and background clearing"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Backup",
+              "detail": "Always export and save your active string locally before loading new codes"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Idle Breakout Prestige Guide",
+          "description": "Covers the prestige soft-reset progression system, optimal reset timing, and permanent skill tree multipliers.",
+          "href": "/progression/idlebreakout-prestige-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "1",
+              "detail": "Monitor stage clear speed and trigger reset when brick HP causes plateaus"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "2",
+              "detail": "Bank prestige currency calculated from highest stage and total destroyed bricks"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "3",
+              "detail": "Invest prestige points into permanent multipliers and starting cash bonuses"
+            },
+            {
+              "label": "4",
+              "detail": "Re-climb lower stages in minutes with overpowered base ball stats"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Idle Breakout Gameplay Tips",
+          "description": "Provides practical strategies for optimizing ball upgrades, earning money faster, and avoiding progression bottlenecks.",
+          "href": "/guide/idlebreakout-tips",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Bottleneck",
+              "detail": "Diagnose whether slow clears stem from low damage, speed, or corner coverage"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Gold Bank",
+              "detail": "Avoid spending every coin immediately; save for key tier-unlock milestones"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "AoE Sweep",
+              "detail": "Position Plasma and Poison balls to soften layouts before fast cleanup"
+            },
+            {
+              "label": "Autoplay",
+              "detail": "Configure balanced ball builds before leaving the game running unattended"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Idle Breakout Platform Guide",
+          "description": "Shows available platforms and ways to access the game, including browser, mobile PWA shortcuts, and touchscreen setups.",
+          "href": "/platforms/idlebreakout-mobile",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Coolmath",
+              "detail": "Play directly in modern desktop browsers with full save state persistence"
+            },
+            {
+              "label": "Mobile Web",
+              "detail": "Access via iOS Safari or Android Chrome with touch-optimized controls"
+            },
+            {
+              "label": "PWA Shortcut",
+              "detail": "Add to Home Screen for fullscreen distraction-free mobile gameplay"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Idle Breakout Updates",
+          "description": "Collects available update information, developer release notes, and version evolution across web and mobile editions.",
+          "href": "/guide/idlebreakout-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Kodiqi",
+              "detail": "Original browser release featuring core 6 ball archetypes and brick physics"
+            },
+            {
+              "label": "Coolmath",
+              "detail": "Optimized web edition with integrated cloud and local storage save handling"
+            },
+            {
+              "label": "Mobile PWA",
+              "detail": "Responsive viewport updates enabling cross-device mobile play and touch taps"
             }
           ]
         }
@@ -300,27 +328,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "description": "Quick answers to the most common questions about Idle Breakout mechanics, balls, codes, and prestige.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Idle Breakout?",
+          "answer": "Idle Breakout is an incremental brick-breaking game where players smash numeric blocks to earn cash, purchase automated balls, unlock powerful upgrades, and climb past level 1000 using prestige resets."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "What are the best balls to upgrade in Idle Breakout?",
+          "answer": "Plasma Balls and Poison Balls are top-tier in Idle Breakout for their devastating area-of-effect damage and percentage-based health drainage. Scatter Balls provide excellent screen coverage for clearing stray blocks."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do codes work in Idle Breakout?",
+          "answer": "Idle Breakout codes are encrypted save import strings rather than promotional text vouchers. You can import them via the Settings gear menu to load specific progress states, test end-game builds, or activate autoplay configurations."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "When should I prestige in Idle Breakout?",
+          "answer": "You should prestige in Idle Breakout whenever stage progression slows down noticeably and bricks take dozens of hits to shatter. Your first prestige is typically recommended between stages 200 and 300 to claim permanent skill points."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Where can I play Idle Breakout?",
+          "answer": "Idle Breakout is freely playable on web platforms like Coolmath Games, itch.io, and mobile browsers on iOS and Android devices without requiring any download."
         }
       ]
     },
