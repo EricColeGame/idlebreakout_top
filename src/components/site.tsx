@@ -21,7 +21,7 @@ export async function SiteHeader({ locale }: { locale: string }) {
     <div className="flex items-center justify-between gap-4">
       <Link href={localizeHref("/", locale)} className="flex items-center gap-3">
         <div className="relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-xl border border-border bg-muted shadow-sm font-bold text-sm text-[hsl(var(--nav-theme))]">
-          <img src="/images/logo.png" alt={siteConfig.name} className="h-full w-full object-cover" onError={(e) => { (e.target as HTMLElement).style.display = "none"; }} />
+          <img src="/images/logo.png" alt={siteConfig.name} className="h-full w-full object-cover" />
           <span className="absolute">{siteConfig.logoText || "IB"}</span>
         </div>
         <span className="text-sm font-bold tracking-wide text-foreground">{siteConfig.name}</span>
